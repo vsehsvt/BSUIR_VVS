@@ -525,3 +525,25 @@ header{
     left: 82px;
 }
 
+footer{
+    margin-top: 170px;
+    min-height: 156px
+}
+.wrapper_footer{
+    border-top:#070707 solid 1px;
+}
+
+.footer_name, .footer_telephone, .footer_email{
+    margin-top: 40px;
+}
+.social_networks_footer{
+    margin-top: 40px;
+}
+.social_networks_footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
