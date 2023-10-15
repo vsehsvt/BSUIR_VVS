@@ -446,3 +446,82 @@ header{
 .answer_questions{
     padding: 20px 210px 20px 107px;
 }
+
+.order{
+    height: 504px;
+    margin-top: 198px;
+    background-color: #ffedf0;
+}
+
+.order_picture{
+    margin-top: 85px;
+    width: 540px;
+    height: 334px;
+    background-color: #fff;
+    padding: 45px 101px 45px 40px;
+    position: relative;
+    z-index: 10;
+}
+.order_picture h3{
+    width: 452px;
+    font-family: NunitoSans;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #430415;
+    margin-bottom: 0;
+}
+
+.order_picture p{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    color: #1a1315;
+    position: relative;
+    z-index: 10;
+   
+}
+.order_wrapper{
+    margin-top: 20px;
+}
+.order_2{
+    display: inline-block;
+    width: 210px;
+    height: 48px;
+    border: solid 1px #a52a3f;
+}
+.order_welcome_span{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: #a52a3f;
+    text-decoration: none;
+    font-family: NunitoSans;
+    font-size: 24px;
+    font-weight: normal;
+    flex-direction: row;
+}
+
+.order_imgs_one{
+    position: absolute;
+    top: -75px;
+    left: -80px;
+    z-index: 5;
+}
+.order_imgs_two{
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+    left: 82px;
+}
+
