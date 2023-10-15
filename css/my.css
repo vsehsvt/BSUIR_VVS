@@ -190,3 +190,125 @@ header{
     background-color: #1a1315;
     margin-top: 14px;
 }
+
+
+
+
+.my_work{
+    min-height: 434px;
+}
+.my_work h2{
+    display: inline-block;
+    text-align: left;
+    margin-top: 150px;
+    width: 450px;
+    height: 70px;
+    font-family: NunitoSans;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #430415;
+}
+
+.my_work_picture_1{
+    margin-top: 40px;
+}
+
+.my_work_picture_1 img{
+    display: inline-block;
+    width: 360px;
+}
+
+.my_work_picture_2{
+    margin-top: 130px;
+}
+
+.my_work_picture_2::after{
+    content: "";
+    width: 393px;
+    height: 1px;
+    background-color: #1a1315;
+    display: inline-block;
+    position: absolute;
+    top: 330px;
+    left: -217px;
+}
+
+.my_work_picture_2 img{
+    display: inline-block;
+    width: 161px;
+}
+.my_work_text_wrapper{
+    margin-top: 33px;
+    padding-left: 39px;
+}
+
+.my_work_text_wrapper::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 188px;
+    width: 1px;
+    height: 179px;
+    opacity: 0.9;
+    background-color: #1a1315;
+}
+
+.my_work_text_wrapper_text_one h3{
+    font-family: NunitoSans;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #430415;
+}
+
+.my_work_text_wrapper_text_one p{
+    display: inline-block;
+    margin-top: 16px;
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
+
+.my_work_text_wrapper_text_two{
+    margin-top: 34px;
+}
+.my_work_text_wrapper_text_two h3{
+    font-family: NunitoSans;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #430415;
+}
+
+.my_work_text_wrapper_text_two p{
+    display: inline-block;
+    margin-top: 16px;
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
