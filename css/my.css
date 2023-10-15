@@ -1,0 +1,192 @@
+header{
+    min-height: 708px;
+}
+
+.name{
+    margin-top: 42px;
+    font-family: ReemKufi;
+    font-size: 18px;
+    text-align: left;
+    color: #1a1315;
+    border-bottom: #1a1315 1px solid;
+    width: 135px;
+  }
+
+.nav{
+    margin-top: 42px;
+   
+}
+.nav li{
+    margin-right: 20px;
+    color: #1a1315;
+}
+.nav li a{
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;   
+}
+.nav li a:hover{
+    color: #1a1315;
+    cursor: pointer;
+    text-decoration: none;
+}
+.language{
+    display: inline-block;
+    margin-top: 42px;
+    font-family: ReemKufi;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #1a1315;
+}
+
+.nav_profile{
+    display: inline-block;
+}
+.nav_profile li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: 25px;
+}
+
+
+.welcome{
+    min-height: 642px;
+}
+.welcome_row_1{
+    margin-top: 60px;
+}
+.welcome_hello{
+    margin-top: 40px;
+    font-family: NunitoSans;
+    font-size: 24px;
+    font-weight: 200;
+        text-align: left;
+    color: #000;
+}
+.welcome h1{
+    display: inline-block;
+    height: 100px;
+    margin-top: 30px;
+    font-family: NunitoSans;
+    font-size: 84px;
+    font-weight: normal;
+    line-height: 0.95;    
+    text-align: left;
+    color: #8d0025;
+}
+.welcome h2{
+    margin-top: 50px;
+    font-family: NunitoSans;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.09;
+    text-align: left;
+    color: #1a1315;
+}
+.welcome_text{
+    margin-top: 40px;
+    font-family: NunitoSans;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
+.buttons{
+    margin-top: 43px;
+}
+.buttons .catalog{
+    display: inline-block;
+    margin-right: 40px;
+    width: 210px;
+    height: 48px;
+    background-color: #a52a3f;
+    border: 1px solid #a52a3f;
+}
+.buttons .order_welcome{
+    display: inline-block;
+    margin-right: 40px;
+    width: 210px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 1px solid #a52a3f;
+}
+
+.catalog >span{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: NunitoSans;
+    font-size: 24px;
+    font-weight: normal;
+    flex-direction: row;
+}
+.order_welcome >span{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: #a52a3f;
+    text-decoration: none;
+    font-family: NunitoSans;
+    font-size: 24px;
+    font-weight: normal;
+    flex-direction: row;
+}
+.buttons a:hover{
+    text-decoration: none;
+}
+.buttons a:visited{
+    text-decoration: none;
+}
+
+
+.wrapper_img{
+    width: 100%;
+    min-height: 530px;
+    margin-top: 60px;
+    background-image: url(../img/dasha_main.png);
+}
+
+
+.social_networks{
+    margin-top: 22px;
+}
+.social_networks ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+.social_networks ul::before{
+    content: "";
+    width: 80px;
+    height: 0.5px;
+    background-color: #1a1315;
+    margin-top: 14px;
+}
+.social_networks ul::after{
+    content: "";
+    width: 80px;
+    height: 0.5px;
+    background-color: #1a1315;
+    margin-top: 14px;
+}
