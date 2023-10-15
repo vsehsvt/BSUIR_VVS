@@ -402,3 +402,47 @@ header{
     text-align: left;
     color: #1a1315;
 }
+
+
+
+.questions{
+    margin-top: 150px;
+}
+.questions h2{
+    display: inline-block;
+    width: 266px;
+    height: 40px;
+    font-family: NunitoSans;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #430415;
+}
+.wrapper_questions{
+    display: flex;
+    justify-content: space-between;
+    border-top:#1a1315 solid 1px;
+    border-bottom:#1a1315 solid 1px;
+    padding: 20px 0px;
+}
+
+
+.wrapper_questions > .text{
+    font-family: NunitoSans;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
+
+.answer_questions{
+    padding: 20px 210px 20px 107px;
+}
