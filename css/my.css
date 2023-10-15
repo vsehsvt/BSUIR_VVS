@@ -312,3 +312,93 @@ header{
     text-align: left;
     color: #1a1315;
 }
+
+.last_works{
+    margin-top: 150px;
+}
+
+.last_works_text{
+    margin-top: 82px;
+}
+.last_works_text::after{
+    display: inline-block;
+    content: "";
+    width: 0.5px;
+    height: 193px;
+    transform: rotate(0rad);
+    opacity: 0.9;
+    background-color: #1a1315;
+    position: absolute;
+    top: 330px;
+    left: 260px;
+}
+.last_works_text h3{
+    font-family: NunitoSans;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #430415;
+}
+.last_works_text p{
+    display: inline-block;
+    width: 237px;
+    height: 80px;
+    margin-top: 22px;
+    font-family: NunitoSans;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
+.last_works_big_picture::after{
+    display: inline-block;
+    content:"";
+    width: 287px;
+    height: 0.5px;
+    background-color: #1a1315; 
+    position: absolute;
+    top: 492px;
+    left: 15px;
+}
+
+
+
+
+
+.last_works_big_picture img{
+ width: 535px;
+}
+.last_works_big_picture p{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
+.last_works_small_pictures_wrapper p{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
