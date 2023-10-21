@@ -36,18 +36,28 @@ header{
     cursor: pointer;
     text-decoration: none;
 }
-.language{
-    display: inline-block;
+.nav_language{
     margin-top: 42px;
-    font-family: ReemKufi;
-  font-size: 14px;
-  font-weight: normal;
-  text-align: center;
-  color: #1a1315;
 }
-
+.language{
+    display: inline-block;   
+    font-family: ReemKufi;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #1a1315;
+}
+.language:hover{
+    color: #1a1315;
+    text-decoration: none;
+}
+.language:visited{
+    color: #1a1315;
+    text-decoration: none;
+}
 .nav_profile{
-    display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .nav_profile li{
     list-style-type: none;
@@ -329,7 +339,7 @@ header{
     opacity: 0.9;
     background-color: #1a1315;
     position: absolute;
-    top: 330px;
+    top: 281px;
     left: 260px;
 }
 .last_works_text h3{
@@ -365,7 +375,7 @@ header{
     height: 0.5px;
     background-color: #1a1315; 
     position: absolute;
-    top: 492px;
+    top: 445px;
     left: 15px;
 }
 
@@ -374,7 +384,7 @@ header{
 
 
 .last_works_big_picture img{
- width: 535px;
+ width: 507px;
 }
 .last_works_big_picture p{
     display: inline-block;
@@ -402,7 +412,9 @@ header{
     text-align: left;
     color: #1a1315;
 }
-
+.small_picture>img{
+    width: 255px;
+}
 
 
 .questions{
@@ -425,12 +437,21 @@ header{
 .wrapper_questions{
     display: flex;
     justify-content: space-between;
-    border-top:#1a1315 solid 1px;
-    border-bottom:#1a1315 solid 1px;
+    
     padding: 20px 0px;
 }
-
-
+.questions_1{
+    border-top:#1a1315 solid 1px;
+    border-bottom:#1a1315 solid 1px;
+}
+.questions_2, .questions_3, .questions_4{
+    border-top:#1a1315 solid 1px;
+    
+}
+.questions_5{
+    border-top:#1a1315 solid 1px;
+    border-bottom:#1a1315 solid 1px;
+}
 .wrapper_questions > .text{
     font-family: NunitoSans;
     font-size: 22px;
@@ -490,13 +511,17 @@ header{
    
 }
 .order_wrapper{
-    margin-top: 20px;
+    
 }
 .order_2{
     display: inline-block;
     width: 210px;
     height: 48px;
     border: solid 1px #a52a3f;
+    margin-top: 20px;
+}
+.order_2:hover{
+   text-decoration: none;
 }
 .order_welcome_span{
     display: flex;
@@ -522,7 +547,7 @@ header{
     position: absolute;
     z-index: 10;
     top: 60px;
-    left: 82px;
+    left: 58px;
 }
 
 footer{
@@ -536,6 +561,47 @@ footer{
 .footer_name, .footer_telephone, .footer_email{
     margin-top: 40px;
 }
+.footer_telephone a{
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
+.footer_telephone a:hover{
+    color: #1a1315;
+    text-decoration: none;
+}
+.footer_telephone a:visited{
+    color: #1a1315;
+    text-decoration: none;
+}
+.footer_email a{
+    font-family: NunitoSans;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+}
+.footer_email a:hover{
+    color: #1a1315;
+    text-decoration: none;
+}
+.footer_email a:visited{
+    color: #1a1315;
+    text-decoration: none;
+}
+
+
+
 .social_networks_footer{
     margin-top: 40px;
 }
@@ -543,7 +609,24 @@ footer{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     padding: 0px;
 }
 
+.social_networks_footer img{
+  
+    margin-left: 30px;
+}
+
+.footer_name span{
+    font-family: ReemKufi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1315;
+    border-bottom:#000 solid 1px;
+}
