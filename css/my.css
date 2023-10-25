@@ -469,7 +469,7 @@ header{
 }
 
 .order{
-    height: 504px;
+    min-height: 504px;
     margin-top: 198px;
     background-color: #ffedf0;
 }
@@ -563,7 +563,7 @@ footer{
 }
 .footer_telephone a{
     font-family: NunitoSans;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -582,7 +582,7 @@ footer{
 }
 .footer_email a{
     font-family: NunitoSans;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
