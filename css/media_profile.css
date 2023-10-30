@@ -1,0 +1,59 @@
+.profile{
+    margin-top: 88px;
+}
+.wrapper_form{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 368px;
+    height: 403px;
+    border: #1A1315 solid 1px;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+legend {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-family: ReemKufi;
+} 
+input[type="text"]{
+    border: #1A1315 solid 1px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    width: 288px;
+    height: 40px;
+}
+input[type="password"]{
+    border: #1A1315 solid 1px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    width: 288px;
+    height: 40px;
+}
+button[type="submit"]{
+    border: #1A1315 solid 1px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    width: 288px;
+    height: 40px;
+}
+fieldset a{
+    color: #5a0f23;
+    font-size: 13px;
+    font-family: ReemKufi;
+}
+fieldset a:hover{
+    color: #5a0f23;
+}
+fieldset a:visited{
+    color: #5a0f23;
+}
+     
