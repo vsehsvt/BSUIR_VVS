@@ -943,6 +943,9 @@
 }
 
 @media screen and (max-width: 429px) {
+   * {
+    display: none;
+   }
     .wrapper_img_430{
         display: none;
     }
