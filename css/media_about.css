@@ -152,7 +152,7 @@
 
 
 
-@media screen and (min-width: 430px) and (max-width: 575px){
+@media screen and (min-width: 425px) and (max-width: 575px){
     .main_img{
         display: block;
         margin: 0 auto;
@@ -190,6 +190,9 @@
     }
     .wrapper_about_order {
         margin-top: 64px;
+    }
+    .wrapper_about_order_text{
+        width: unset;
     }
     footer {
         margin-top: 80px;
