@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+# Отключаем индексацию для страниц которые не созданы
+Disallow: /register.html
+Disallow: /bin.html
+Disallow: /catalog.html
+Disallow: /workshop.html
+Disallow: /shipping.html
+Disallow: /favourites.html
+Disallow: /profile.html
+
+Sitemap: http://daryaurbanovich.com/sitemap.html
